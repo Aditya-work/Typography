@@ -1,0 +1,14 @@
+// IN A CM IF THE CONTENT IS SAME AND YOU NEED TO REVERSE THE ROW THEN FOLLOW THE FOLLOWING
+
+
+
+.row-fluid{
+  flex-direction:row-reverse;
+}
+
+.cm-container:nth-child(){
+  position:absolute;
+  left:;   // USED TO ALIGN CONTENT 
+  right:;
+
+}

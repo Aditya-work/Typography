@@ -1,0 +1,9 @@
+// THROUGH CSS
+
+
+class-main{
+font-family:;
+font-weight:;
+content:'\f061';//THIS IS A UNICODE
+
+}

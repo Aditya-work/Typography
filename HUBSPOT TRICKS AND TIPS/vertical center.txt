@@ -1,0 +1,4 @@
+<div class="equal-height-container">
+<div class="row-fluid-wrapper">
+ <div class="row-fluid">
+  <div class="vertical-center">// GIVE TO PARTICULAR CLASS WHERE IT IS REQUIRED(IN CM***) //GIVE IT TO ALL THE DIVS WHEN GIVEN IN A NORMAL SECTION***

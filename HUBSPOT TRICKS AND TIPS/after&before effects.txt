@@ -1,0 +1,23 @@
+class-main{
+position:relative;
+}
+
+class-main:after{
+
+/*USE THIS STYLING TO BRING THE CONTENT IN CENTER*/
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+content:'';
+background:url();
+background-size:cover;
+background-position:center center;
+margin:0 auto;
+text-align:center;
+
+}
+
+
+z-index:1,0,-1; //THESE ARE USED TO SHOW CONTENT BEHIND OR ABOVE EACH OTHER

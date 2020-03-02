@@ -1,0 +1,19 @@
+OVERLAY EFFECT CSS EG.
+
+
+.insta_hero_section.bg-video-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    z-index: 0;
+}
+
+.insta_hero_section.bg-video-container:after {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.35);
+    left: 0;
+    right: 0;
+    top: 0;
+    content: '';
+    bottom: 0;
+}

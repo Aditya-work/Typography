@@ -1,0 +1,20 @@
+three,two,four.... 
+
+
+ <div class="three-col-adjust">
+      <span>//SPAN TAG NOT CLASS***
+        {% for item in module.field_group %} //REPEATER START***
+      <div class="hs_cos_wrapper">
+         <div class="cm-container">
+      <img src="{{ item.add_image.src }}">
+      <h3>
+        {{ item.add_title }}
+      </h3>
+      <p>
+        {{ item.add_subtitle }}
+      </p>
+    </div>
+      </div>
+        {% endfor %}// REPEATER END***
+      </span> 
+ </div> 

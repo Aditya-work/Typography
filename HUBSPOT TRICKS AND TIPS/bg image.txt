@@ -1,0 +1,17 @@
+<script>
+$(document).ready(function(){
+var images = $(".bg-image").find("img");
+$.each(images, function (index, item) {
+ var $item = $(item),
+  src = $item.attr('src'),
+ cont = $item.closest('.section-bg').css('background-image', 'url(' + src + ')');
+});
+});
+</script>
+
+
+
+give image inline style as => display:none;
+
+
+NOTE*** Keep the image out of WRAPPER*
